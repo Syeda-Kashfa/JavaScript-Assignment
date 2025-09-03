@@ -18,4 +18,12 @@
 // console.log("hello... ","I can run JS through my web browser's console");
 
 // Question no 6
+_______________________________________________________________________________
+// Chap 2
+// Question no 1
+// var usename
 
+// Qestion no 2
+// var myName=("Syeda Kashfa")
+
+// Question no 3
