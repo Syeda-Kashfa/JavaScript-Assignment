@@ -1,11 +1,13 @@
 // Question no#1
 
-// let num1 =3;
-// let num2 =5;
-// let newNum = num1 + num2;
+/*
+let num1 =3;
+let num2 =5;
+let newNum = num1 + num2;
 
-// console.log(`Sum of ${num1} and ${num2} is ${newNum}`);
-// console.log(`Sum of ${num1} and ${num2} is ${num1+num2}`);
+document.write(`<h1>Sum of ${num1} and ${num2} is ${newNum}</h1>`);
+document.write(`<h3>Sum of ${num1} and ${num2} is ${num1+num2}</h3>`);
+*/
 
 
 // Question no#2:a
@@ -44,15 +46,15 @@
 // let num2 =5;
 // let newNum = num1 % num2;
 
-// console.log(`Modulus oValue after variable declaration is : ${num}f ${num1} and ${num2} is ${newNum}`);
+// console.log(`Modulus Value after variable declaration is : ${num}f ${num1} and ${num2} is ${newNum}`);
 // console.log(`Modulus of ${num1} and ${num2} is ${num1%num2}`);
 
-/*// Question no#3:a
+ // Question no#3:a
 // let num 
 
 // Question no#3:b
-// let num = "??"
-// console.log(`Value after variable declaration is : ${num}`);
+ // let num = "??"
+ // console.log(`Value after variable declaration is : ${num}`);
 
 
 // Question no#3:c
@@ -64,12 +66,14 @@
 // console.log(`Initial value is: ${num}`)
 
 // Question no#3:e
- let num = 5
-num = ++num
+ /* let num = 5;
+ document.write(`Value after variable declaration is undefined <br/>`)
+ document.write(`Initial Value is: ${num}<br>`)
+ ++num
 
 
 // Question no#3:f
-  console.log(`Value after increment  is: ${num}`);
+  document.write(`Value after increment  is: ${num}<br/>`);
 
 // Question no#3:g
 num = num + 7
@@ -77,63 +81,62 @@ num = num + 7
 
 // Question no#3:h
 
- console.log(`Value after addition is: ${num}`);
+ document.write(`Value after addition is: ${num}<br/>`);
 
 // Question no#3:i
- num = --num 
+  --num 
 
 
 // Question no#3:j
- console.log(`Value after decrement is: ${num}`);
+ document.write(`Value after decrement is: ${num}<br/>`);
 
 // Question no#3:k
 let num1=3 
 
 // Question no#3:i
 let reminder = num % num1
- console.log(`The reminder is: ${reminder}`)
-*/    
+ document.write(`The reminder is: ${reminder}`)
+    
 // Summarize Question No # 3
-/* console.log(`Value after variable declaration is undefined
-Intial value is: 5
-Value after increment is: 6
-Value after addition is: 13
-Value after decrement is: 12
+ document.write(`Value after variable declaration is undefined <br/>
+Intial value is: 5 <br/>
+Value after increment is: 6 <br/>
+Value after addition is: 13 <br/>
+Value after decrement is: 12 <br/>
 The reminder is: 0`)*/
 
 // Question no#4
-// let movieTicket = 600
-// let buyTictkets = 5
-// console.log(`Total cost to buy ${buyTictkets} tickets to a movie is ${movieTicket*buyTictkets}PKR`)
+ /*let movieTicket = 600
+ let buyTictkets = 5
+ document.write(`Total cost to buy ${buyTictkets} tickets to a movie is ${movieTicket*buyTictkets}PKR`)
+ */
 
-// Question no#4
-/*let table = 4
+// Question no#5
+/* let table = 4
 let multiplyBy = 1
-multiplyBy = multiplyBy++
+multiplyBy++
 
-console.log(`Table of 4`)
-console.log(`${table} * ${multiplyBy} = ${table*multiplyBy}`);
+document.write(`<h1>Table of 4</h1><br/>`)
+document.write(`${table} x ${multiplyBy} = ${table*multiplyBy}<br/>`);
+++multiplyBy
+document.write(`${table} x ${multiplyBy} = ${table*multiplyBy}<br/>`);
+++multiplyBy
+document.write(`${table} x ${multiplyBy} = ${table*multiplyBy}<br/>`);
+++multiplyBy
+document.write(`${table} x ${multiplyBy} = ${table*multiplyBy}<br/>`);
+++multiplyBy
+document.write(`${table} x ${multiplyBy} = ${table*multiplyBy}<br/>`);
+++multiplyBy
+document.write(`${table} x ${multiplyBy} = ${table*multiplyBy}<br/>`);
+++multiplyBy
+document.write(`${table} x ${multiplyBy} = ${table*multiplyBy}<br/>`);
+++multiplyBy
+document.write(`${table} x ${multiplyBy} = ${table*multiplyBy}<br/>`);
+++multiplyBy
+document.write(`${table} x ${multiplyBy} = ${table*multiplyBy}`);
+*/
 
-multiplyBy = ++multiplyBy
-console.log(`${table} * ${multiplyBy} = ${table*multiplyBy}`);
-multiplyBy = ++multiplyBy
-console.log(`${table} * ${multiplyBy} = ${table*multiplyBy}`);
-multiplyBy = ++multiplyBy
-console.log(`${table} * ${multiplyBy} = ${table*multiplyBy}`);
-multiplyBy = ++multiplyBy
-console.log(`${table} * ${multiplyBy} = ${table*multiplyBy}`);
-multiplyBy = ++multiplyBy
-console.log(`${table} * ${multiplyBy} = ${table*multiplyBy}`);
-multiplyBy = ++multiplyBy
-console.log(`${table} * ${multiplyBy} = ${table*multiplyBy}`);
-multiplyBy = ++multiplyBy
-console.log(`${table} * ${multiplyBy} = ${table*multiplyBy}`);
-multiplyBy = ++multiplyBy
-console.log(`${table} * ${multiplyBy} = ${table*multiplyBy}`);
-multiplyBy = ++multiplyBy
-console.log(`${table} * ${multiplyBy} = ${table*multiplyBy}`);*/
-
-// Question no#4
+// Question no#5
 // anotherway of table
 /*let numb = 4;
 console.log(`The table of 4 an other way`)
