@@ -63,7 +63,7 @@
 
 // QUESTON NO # 9
 
-// let colorsName= ["White", "Red", "Black","Blue", "Pink", "lavender", "Aqua"];
+ let colorsName= ["White", "Red", "Black","Blue", "Pink", "lavender", "Aqua"];
 
 // document.write(`<h6>${colorsName[0]} </h6><br/>
 //     <h6>${colorsName[1]} </h6><br/>
@@ -89,8 +89,8 @@
 
 // let userColor4 = prompt("Enter the one more another color what you want to add the beginning of the array");
 
-// colorsName.unshift(userColor3);
-// colorsName.unshift(userColor4);
+// colorsName.unshift(userColor3,userColor4);
+// colorsName.unshift();
 
 // document.write(colorsName);
 
@@ -111,7 +111,7 @@
 
 // let userAddNum = +prompt("Enter a number at which you want to add color");
 // let userAddClr = prompt("Whats you want to add color");
-// colorsName.splice(userNum ,0, userClr);
+// colorsName.splice(userAddNum ,0, userAddClr);
 
 // document.write(`<h2>Updated Array Here:</h2><br> ${colorsName}`);
 
@@ -151,3 +151,48 @@
 // document.write(`<h1>Joins The Array String:<br></h1> ${string}`);
 
 // QUESTON NO # 13
+
+// let batsmen = ["Jos Buttler" , "Virat Kohli", "Maxwell" , "Harry Brook" , "Daryl Mitchel"];
+// document.write(`<h1>My Favourite Batsmen</h1> <h3>${batsmen}</h3><br>`)
+
+// // FIFO(FIRST IN FIRST OUT METHOD)
+
+// let out;
+// out = batsmen.shift();
+// document.write(`<h1>FIFOut:</h1> ${out}`);
+// out = batsmen.shift();
+// document.write(`<h1>FIFOut:</h1> ${out}`);
+// out = batsmen.shift();
+// document.write(`<h1>FIFOut:</h1> ${out}`);
+// out = batsmen.shift();
+// document.write(`<h1>FIFOut:</h1> ${out}`);
+// out = batsmen.shift();
+//  document.write(`<h1>FIFOut:</h1> ${out}`);
+
+
+// QUESTON NO # 14
+
+// let bowlers = ["Shadab Khan","Haris Rauf","Waseem Junior", "M.Amir"];
+// document.write(`<h1>Bowlers:</h1><h3>${bowlers}</h3><br>`)
+// let out;
+// out = bowlers.pop();
+// document.write(`<h2>LIFOut:</h2>${out}`);
+// out = bowlers.pop();
+// document.write(`<h2>LIFOut:</h2>${out}`);
+// out = bowlers.pop();
+// document.write(`<h2>LIFOut:</h2>${out}`);
+// out = bowlers.pop();
+// document.write(`<h2>LIFOut:</h2>${out}`);
+
+// 
+// let modelNo = ["Apple", "Samsung", "Motorola","Nokia", "Sony","Haier"];
+
+// let index = 0;
+
+// document.write(`<h1>ShowCase DropDown:</h1><select>
+// <option>Dropdown</option>
+// <option>${modelNo[index++]}</option>
+// <option>${modelNo[index++]}</option>
+// <option>${modelNo[index++]}</option>
+// <option>${modelNo[index++]}</option>
+// <option>${modelNo[index++]}</option></select>`)
