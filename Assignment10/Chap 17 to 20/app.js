@@ -6,12 +6,12 @@
 // // QUESTION NO# 2
 
 // let matrix = [ [0,1,2,3],[1,0,1,2],[2,1,0,1] ];
-
-// for(let i=0; i <3; i++){
-//     for(j=0; j< 4; j++){
+// document.write(`<h1>Multi-Dimensional Array [2D]</h1>`)
+// for(let i=0; i < matrix.length; i++){
+//     for(j=0; j< matrix[i].length; j++){
 //         document.write(`<b>${matrix[i][j]} </b>`)     
 //     }
-//     document.write(`<br><br/>`)
+//     document.write(`<br/><br/>`)
 // }
 
 // // QUESTION NO# 3
@@ -127,8 +127,15 @@
 
 // // QUESTION NO# 10
 
-// document.write(`<h1>Multiples of 5 Ranging</h1>`)
+//  document.write(`<h1>Multiples of 5 Ranging</h1>`)
 // for (let i=1; i<=100; i++){
+//     if(i%5===0){
+//         document.write(`( <b>${i}</b> ) , `)
+//     }
+// }
+
+// document.write(`<h1>Multiples of 5 Ranging Second Method</h1>`)
+// for (let i=5; i<=100; i=i+5){
 //     if(i%5===0){
 //         document.write(`( <b>${i}</b> ) , `)
 //     }
