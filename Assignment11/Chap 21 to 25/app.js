@@ -147,7 +147,7 @@
 // }
 // for(i=0; i < userPassword.length; i++){
 //     let code = userPassword[i].charCodeAt(0);
-//     console.log(code);
+//     // console.log(code);
 //     if(code>=65 && code<=90){
 //         flageWord=true;
 //     }
