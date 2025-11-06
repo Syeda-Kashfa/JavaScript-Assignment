@@ -1,0 +1,43 @@
+/* QUSTION NO:2 */
+
+.pict{
+    display: flex;
+    flex-wrap: wrap;
+    justify-self: center;
+    justify-content: space-around;
+    background: #000;
+}
+.pict img{
+    width: 400px;
+    height: 400px;
+    border-radius: 10px;
+}
+img{
+    width: 400px;
+    height: 400px;
+}
+figcaption{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+
+/* QUESTION N0:3 */
+
+/* .remove{
+    display: none;
+} */
+
+/* QUESTION NO:4 */
+.imag{
+    display: flex;
+    justify-content: center;
+    
+    
+
+}
+img{
+width: 500px;
+
+}
+
